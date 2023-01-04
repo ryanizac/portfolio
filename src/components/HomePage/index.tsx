@@ -7,6 +7,7 @@ import { Column } from "../template/Column";
 import { H1 } from "../template/H";
 import { P } from "../template/P";
 import { FirstSection } from "../template/FirstSection";
+import { SocialIcons } from "./components/SocialIcons";
 
 type HomePageProps = {};
 
@@ -31,6 +32,7 @@ export function HomePage(props: HomePageProps) {
               estudo Tecnologia da Informação na Universidade Federal do RN e
               cursei o Técnico em Informática no Instituto Federal do RN.
             </P>
+            <SocialIcons />
           </Column>
         </FirstSection>
       </Content>
