@@ -9,6 +9,7 @@ import { P } from "../template/P";
 import { FirstSection } from "../template/FirstSection";
 import { SocialIcons } from "./components/SocialIcons";
 import { WhoIAmSection } from "./sections/WhoIAmSection";
+import { WhatIDo } from "./sections/WhatIDo";
 
 type HomePageProps = {};
 
@@ -37,6 +38,7 @@ export function HomePage(props: HomePageProps) {
           </Column>
         </FirstSection>
         <WhoIAmSection />
+        <WhatIDo />
       </Content>
     </Container>
   );
