@@ -3,3 +3,8 @@ declare module "*.svg" {
   const SVG: React.FC<React.SVGProps<SVGSVGElement>>;
   export default SVG;
 }
+
+declare module "*.png" {
+  const PNG: any;
+  export default SVG;
+}

@@ -8,6 +8,7 @@ import { H1 } from "../template/H";
 import { P } from "../template/P";
 import { FirstSection } from "../template/FirstSection";
 import { SocialIcons } from "./components/SocialIcons";
+import { WhoIAmSection } from "./sections/WhoIAmSection";
 
 type HomePageProps = {};
 
@@ -35,6 +36,7 @@ export function HomePage(props: HomePageProps) {
             <SocialIcons />
           </Column>
         </FirstSection>
+        <WhoIAmSection />
       </Content>
     </Container>
   );
