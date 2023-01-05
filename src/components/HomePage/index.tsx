@@ -14,6 +14,7 @@ import { DifferentialsSection } from "./sections/DifferentialsSection";
 import { PhilosophySection } from "./sections/PhilosophySection";
 import { ExperienceSection } from "./sections/ExperienceSection";
 import { GraduationsSection } from "./sections/GraduationsSection";
+import { TechnologiesSection } from "./sections/TechnologiesSection";
 
 type HomePageProps = {};
 
@@ -47,6 +48,7 @@ export function HomePage(props: HomePageProps) {
         <PhilosophySection />
         <ExperienceSection />
         <GraduationsSection />
+        <TechnologiesSection />
       </Content>
     </Container>
   );
