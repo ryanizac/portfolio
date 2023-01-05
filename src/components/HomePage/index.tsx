@@ -13,6 +13,7 @@ import { WhatIDo } from "./sections/WhatIDo";
 import { DifferentialsSection } from "./sections/DifferentialsSection";
 import { PhilosophySection } from "./sections/PhilosophySection";
 import { ExperienceSection } from "./sections/ExperienceSection";
+import { GraduationsSection } from "./sections/GraduationsSection";
 
 type HomePageProps = {};
 
@@ -45,6 +46,7 @@ export function HomePage(props: HomePageProps) {
         <DifferentialsSection />
         <PhilosophySection />
         <ExperienceSection />
+        <GraduationsSection />
       </Content>
     </Container>
   );
