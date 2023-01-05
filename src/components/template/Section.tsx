@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Section = styled.section`
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  row-gap: 32px;
+  row-gap: 64px;
   padding: 40px 0;
 `;
