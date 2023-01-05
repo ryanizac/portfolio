@@ -11,6 +11,7 @@ import { SocialIcons } from "./components/SocialIcons";
 import { WhoIAmSection } from "./sections/WhoIAmSection";
 import { WhatIDo } from "./sections/WhatIDo";
 import { DifferentialsSection } from "./sections/DifferentialsSection";
+import { PhilosophySection } from "./sections/PhilosophySection";
 
 type HomePageProps = {};
 
@@ -41,6 +42,7 @@ export function HomePage(props: HomePageProps) {
         <WhoIAmSection />
         <WhatIDo />
         <DifferentialsSection />
+        <PhilosophySection />
       </Content>
     </Container>
   );
