@@ -10,6 +10,7 @@ import { FirstSection } from "../template/FirstSection";
 import { SocialIcons } from "./components/SocialIcons";
 import { WhoIAmSection } from "./sections/WhoIAmSection";
 import { WhatIDo } from "./sections/WhatIDo";
+import { DifferentialsSection } from "./sections/DifferentialsSection";
 
 type HomePageProps = {};
 
@@ -39,6 +40,7 @@ export function HomePage(props: HomePageProps) {
         </FirstSection>
         <WhoIAmSection />
         <WhatIDo />
+        <DifferentialsSection />
       </Content>
     </Container>
   );
