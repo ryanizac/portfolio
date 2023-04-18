@@ -19,7 +19,7 @@ export function PresentationSection() {
       <Column>
         <H1>
           Olá! Me chamo Ryan; construo sistemas para as pessoas por trás dos
-          requisitos. Tecnologia é o presente.
+          requisitos.
         </H1>
         <P>
           Olá, me chamo Ryan. Eu desenvolvo software; gosto de dizer que faço
