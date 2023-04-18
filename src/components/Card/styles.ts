@@ -9,7 +9,6 @@ export const Container = styled.article`
   row-gap: 16px;
   padding: 64px 32px;
   background-color: #0f0f0f;
-  border-radius: 16px;
 `;
 
 export const Title = styled(H3)`
