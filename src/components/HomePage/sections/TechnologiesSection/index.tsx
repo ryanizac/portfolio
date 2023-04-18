@@ -1,11 +1,5 @@
 import { SectionDescription } from "@src/components/template/SectionDescription";
-import {
-  Line,
-  Container,
-  Image,
-  Paragraph,
-  TechnologyImageArea,
-} from "./styles";
+import { Container, Image, Paragraph, TechnologyImageArea } from "./styles";
 
 import typescriptImage from "@public/img/technologies/typescript.png";
 import javascriptImage from "@public/img/technologies/javascript.png";
