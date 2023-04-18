@@ -8,6 +8,7 @@ import { ExperienceSection } from "./sections/ExperienceSection";
 import { GraduationsSection } from "./sections/GraduationsSection";
 import { TechnologiesSection } from "./sections/TechnologiesSection";
 import { PresentationSection } from "./sections/PresentationSection";
+import { ArticlesSection } from "./sections/ArticlesSection";
 
 type HomePageProps = {};
 
@@ -23,6 +24,7 @@ export function HomePage(props: HomePageProps) {
         <ExperienceSection />
         <GraduationsSection />
         <TechnologiesSection />
+        <ArticlesSection />
       </Content>
     </Container>
   );
