@@ -1,7 +1,4 @@
 import { Container } from "./styles";
-import { Header } from "@components/template/Header";
-import { Nav } from "@components/Nav";
-import { Logo } from "@components/Logo";
 import { Column } from "@components/template/Column";
 import { H1 } from "@components/template/H";
 import { P } from "@components/template/P";
@@ -11,11 +8,6 @@ import { SocialIcons } from "../../components/SocialIcons";
 export function PresentationSection() {
   return (
     <Container>
-      <Header>
-        <Nav>
-          <Logo />
-        </Nav>
-      </Header>
       <Column>
         <H1>
           Olá! Me chamo Ryan; construo sistemas para as pessoas por trás dos

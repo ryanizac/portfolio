@@ -10,12 +10,14 @@ import { TechnologiesSection } from "./sections/TechnologiesSection";
 import { PresentationSection } from "./sections/PresentationSection";
 import { ArticlesSection } from "./sections/ArticlesSection";
 import { Footer } from "@components/template/Footer";
+import { Header } from "@components/template/Header";
 
 type HomePageProps = {};
 
 export function HomePage(props: HomePageProps) {
   return (
     <Container>
+      <Header />
       <Content>
         <PresentationSection />
         <WhoIAmSection />
