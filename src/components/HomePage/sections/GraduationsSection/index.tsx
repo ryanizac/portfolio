@@ -10,10 +10,7 @@ type GraduationsSectionProps = {};
 export function GraduationsSection(props: GraduationsSectionProps) {
   return (
     <Container>
-      <SectionDescription
-        title="Formações"
-        subtitle="Clique para saber mais sobre cada uma"
-      />
+      <SectionDescription title="Formações" />
       <Content>
         <ExperienceArea>
           <RowCard

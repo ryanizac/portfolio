@@ -15,8 +15,8 @@ export function PresentationSection() {
         </H1>
         <ProfileCard />
         <P>
-          O desenvolvimento de Software foi o caminho que eu escolhi para semear
-          as ideias que vão revolucionar negócios e a vida das pessoas.
+          O desenvolvimento de Software foi o caminho que eu escolhi para
+          agregar boas ideias aos negócios e a vida das pessoas.
         </P>
       </Column>
       <SocialIcons />

@@ -22,13 +22,8 @@ export function TechnologiesSection(props: TechnologiesSectionProps) {
     <Container>
       <SectionDescription
         title="Tecnologias"
-        subtitle="Clique para saber mais sobre cada uma"
+        subtitle="Ferramentas com as quais eu trabalho."
       />
-      <Paragraph>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry{"'"}s standard dummy text
-        ever since the 1500s
-      </Paragraph>
       <TechnologyImageArea>
         <Image src={typescriptImage} alt="typescript" />
         <Image src={javascriptImage} alt="javascript" />

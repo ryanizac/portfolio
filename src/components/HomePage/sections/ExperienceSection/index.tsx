@@ -11,10 +11,7 @@ type ExperienceSectionProps = {};
 export function ExperienceSection(props: ExperienceSectionProps) {
   return (
     <Container>
-      <SectionDescription
-        title="EXPERIÊNCIA"
-        subtitle="Clique para saber mais sobre cada uma"
-      />
+      <SectionDescription title="EXPERIÊNCIA" />
       <Content>
         <ExperienceArea>
           <RowCard title="Pechinchou" subtitle="Desenvolvedor Fullstack" />

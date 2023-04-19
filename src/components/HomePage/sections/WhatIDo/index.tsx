@@ -14,17 +14,17 @@ export function WhatIDo() {
         <Card
           Icon={ScreenSvg}
           title="Web | Mobile | Desktop"
-          subtitle="Plataformas web e mobile nativas 100% funcionais programadas com a linguagem JavaScript."
+          subtitle="Aplicativos, Programas e Sistemas Web funcionais para todas as plataformas."
         />
         <Card
           Icon={PaintSvg}
           title="UX"
-          subtitle="Plataformas web e mobile nativas 100% funcionais programadas com a linguagem JavaScript."
+          subtitle="Desenvolvimento de protótipos para pré-visualização das interfaces de sistemas."
         />
         <Card
           Icon={CodeSvg}
           title="Outras aplicações"
-          subtitle="Plataformas web e mobile nativas 100% funcionais programadas com a linguagem JavaScript."
+          subtitle="Desenvolvimento e automação de Bots.  Integração de circuitos eletrônicos com sistemas online."
         />
       </Content>
     </Container>
