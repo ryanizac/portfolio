@@ -5,6 +5,7 @@ import { P } from "../template/P";
 export const Container = styled.article`
   cursor: default;
   display: flex;
+  flex: 1;
   flex-direction: column;
   row-gap: 16px;
   padding: 64px 32px;
