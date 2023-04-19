@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FirstSection = styled.section`
-  min-height: 100vh;
+  min-height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;

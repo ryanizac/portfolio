@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  column-gap: 16px;
-  margin-top: 32px;
+  flex-direction: column;
+  gap: 32px;
 
   & > svg {
     cursor: pointer;

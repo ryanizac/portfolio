@@ -2,9 +2,11 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   display: flex;
-  padding: 50px calc(100% - 1200px);
+  align-items: center;
+  padding: 0 calc(100% - 1200px);
+  height: 100px;
 
   @media screen and (max-width: 1200px) {
-    padding: 50px 20px;
+    padding: 0 20px;
   }
 `;

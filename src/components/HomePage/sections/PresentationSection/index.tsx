@@ -2,25 +2,24 @@ import { Container } from "./styles";
 import { Column } from "@components/template/Column";
 import { H1 } from "@components/template/H";
 import { P } from "@components/template/P";
-
 import { SocialIcons } from "../../components/SocialIcons";
+import { ProfileCard } from "@components/ProfileCard";
 
 export function PresentationSection() {
   return (
     <Container>
-      <Column>
+      <Column className="left">
         <H1>
-          Olá! Me chamo Ryan; construo sistemas para as pessoas por trás dos
-          requisitos.
+          Olá! Me chamo Ryan; construo <span>sistemas</span> para as{" "}
+          <span>pessoas</span> por trás dos requisitos.
         </H1>
+        <ProfileCard />
         <P>
-          Olá, me chamo Ryan. Eu desenvolvo software; gosto de dizer que faço
-          isso para as pessoas por trás dos requisitos. Atualmente estudo
-          Tecnologia da Informação na Universidade Federal do RN e cursei o
-          Técnico em Informática no Instituto Federal do RN.
+          O desenvolvimento de Software foi o caminho que eu escolhi para semear
+          as ideias que vão revolucionar negócios e a vida das pessoas.
         </P>
-        <SocialIcons />
       </Column>
+      <SocialIcons />
     </Container>
   );
 }
