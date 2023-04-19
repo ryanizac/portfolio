@@ -27,25 +27,7 @@ export function HomePage(props: HomePageProps) {
         <TechnologiesSection />
         <ArticlesSection />
       </Content>
-      <Footer
-        navigation={[
-          { path: "what-i-do", text: "O que faço" },
-          { path: "differentials", text: "Diferenciais" },
-          { path: "experience", text: "Experiencia" },
-          { path: "technologies", text: "Tecnologias" },
-          { path: "articles", text: "Artigos" },
-        ]}
-        contacts={["io.ryan@outlook.com", "(84) 99453-5223"]}
-        external={[
-          { path: "https://www.linkedin.com/in/ryanizac/", text: "Linkedin" },
-          {
-            path: "https://github.com/ryanizac?tab=repositories",
-            text: "Github",
-          },
-          { path: "https://medium.com/@ryanizac", text: "Medium" },
-          { path: "https://instagram.com/compryan", text: "Instagram" },
-        ]}
-      />
+      <Footer />
     </Container>
   );
 }
