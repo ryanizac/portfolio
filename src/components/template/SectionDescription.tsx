@@ -14,14 +14,14 @@ const SectionSubtitle = styled.p`
 
 type SectionDescriptionProps = {
   title: string;
-  subtitle: string;
+  subtitle?: string;
 };
 
 export function SectionDescription(props: SectionDescriptionProps) {
   return (
     <Container>
       <SectionTitle>{props.title}</SectionTitle>
-      <SectionSubtitle>{props.subtitle}</SectionSubtitle>
+      {props.subtitle && <SectionSubtitle>{props.subtitle}</SectionSubtitle>}
     </Container>
   );
 }
