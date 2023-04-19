@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Arrow, Container, Description, Title } from "./styles";
+import { ArrowContainer, Container, Description, Title } from "./styles";
 import { Column } from "../template/Column";
+import UpArrowSvg from "@public/svg/up-arrow.svg";
 
 type DropDownProps = {
   title: string;
@@ -12,7 +13,9 @@ export function DropDown(props: DropDownProps) {
 
   return (
     <Container onClick={() => setActive((prev) => !prev)}>
-      <Arrow active={active ? "active" : undefined} />
+      <ArrowContainer active={active}>
+        <UpArrowSvg />
+      </ArrowContainer>
       <Column>
         <Title>{props.title}</Title>
         <Description active={active}>{props.description}</Description>
