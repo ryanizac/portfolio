@@ -17,14 +17,12 @@ export function WhoIAmSection() {
         <Column>
           <H3>
             <div>Ryan &</div>
-            <div>conhecer &</div>
-            <div>Desenvolvimento</div>
+            <div>Negócios &</div>
+            <div>Tecnologia</div>
           </H3>
           <Paragraph>
-            O que me fixa no mundo é o desejo de conhecer. Desenvolvimento de
-            Software foi o melhor caminho. Sou ambicioso pelas ideias que vão
-            revolucionar negócios, que, por sua vez, revolucionam a vida das
-            pessoas. Quero
+            Sou apaixonado por tecnologia e negócios. Gosto de pensar nas
+            melhores ideias que vão agregar na vida das pessoas.
           </Paragraph>
         </Column>
       </Content>
