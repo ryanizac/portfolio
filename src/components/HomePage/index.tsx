@@ -23,7 +23,6 @@ export function HomePage(props: HomePageProps) {
         <WhoIAmSection />
         <WhatIDo />
         <DifferentialsSection />
-        <PhilosophySection />
         <ExperienceSection />
         <GraduationsSection />
         <TechnologiesSection />
